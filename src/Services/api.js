@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:30083/back1", // ✅ This matches Nginx proxy path
+  baseURL: "http://localhost:30083", // ✅ This matches Nginx proxy path
 });
 
 // ✅ Attach JWT token to every request
